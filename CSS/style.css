@@ -1,0 +1,86 @@
+body {
+color: blue; background: #f8f8f8;
+}
+/*стиль меню*/
+ul.menu {
+    list-style-type: none;
+}
+ul.menu a {
+    color: #484343;
+    font-size: 18px;
+    font-style: bold;
+    text-decoration: none;
+}
+a:visited:hover {
+    color: red;
+}
+a:link:hover {
+    color: darkblue;
+}
+/*Страницы товаров*/
+/*Заголовки*/
+.tovar h2 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+/*Краткое описание товара*/
+.tovar .short-description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+/*Подробное описание товара*/
+.tovar .description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+/*Характеристика товара*/
+.tovar ul.specifications {
+    color: red;
+    list-style: none;
+    background-color: lightyellow;
+    border: solid 1px black;
+    padding: 10px 50px;
+    line-height: 18px;
+}
+/*Рамка рисунка*/
+.tovar img {
+    outline: 3px solid red;
+}
+/*Контакты*/
+.contacts input[type=text], .contacts input[type=email], .contacts input[type=tel], .contacts textarea {
+    width: 250px;
+    height: 24px;
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+}
+.contacts input[type=tel] {
+    width: 230px;
+}
+.contacts textarea {
+    height: 100px;
+}
+table td {
+    border: 3px solid black;
+    padding: 1px 2px 3px 10px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+table {
+    width: 500px;
+    height: 550px;
+/*    border: 2px solid red;*/
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+table td:first-child {
+    width: 20%
+}
